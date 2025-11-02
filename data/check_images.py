@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/check_images.py
-#
-# TODO 0: Add your information below for Programmer & Date Created.                                                                             
+
+# The information below for Programmer & Date Created.
 # PROGRAMMER: SURESH THOMAS 
-# DATE CREATED: 27/06/2025                                 
-# REVISED DATE: 
+# DATE CREATED: 02/11/2025
+# REVISED DATE: 02/11/2025
 # PURPOSE: Classifies pet images using a pretrained CNN model, compares these
 #          classifications to the true identity of the pets in the images, and
 #          summarizes how well the CNN performed on the image classification task. 
@@ -40,11 +40,10 @@ from print_results import print_results
 
 # Main program function defined below
 def main():
-    # TODO 0: Measures total program runtime by collecting start time
     start_time = time()
     print(start_time)
     
-    # TODO 1: Define get_input_args function within the file get_input_args.py
+    #Define get_input_args function within the file get_input_args.py
     # This function retrieves 3 Command Line Arugments from user as input from
     # the user running the program from a terminal window. This function returns
     # the collection of these command line arguments from the function call as
@@ -55,7 +54,7 @@ def main():
     check_command_line_arguments(in_arg)
 
     
-    # TODO 2: Define get_pet_labels function within the file get_pet_labels.py
+    # Define get_pet_labels function within the file get_pet_labels.py
     # Once the get_pet_labels function has been defined replace 'None' 
     # in the function call with in_arg.dir  Once you have done the replacements
     # your function call should look like this: 
@@ -68,7 +67,7 @@ def main():
     check_creating_pet_image_labels(results)
 
 
-    # TODO 3: Define classify_images function within the file classiy_images.py
+    # Define classify_images function within the file classiy_images.py
     # Once the classify_images function has been defined replace first 'None' 
     # in the function call with in_arg.dir and replace the last 'None' in the
     # function call with in_arg.arch  Once you have done the replacements your
@@ -82,7 +81,7 @@ def main():
     check_classifying_images(results)    
 
     
-    # TODO 4: Define adjust_results4_isadog function within the file adjust_results4_isadog.py
+    # Define adjust_results4_isadog function within the file adjust_results4_isadog.py
     # Once the adjust_results4_isadog function has been defined replace 'None' 
     # in the function call with in_arg.dogfile  Once you have done the 
     # replacements your function call should look like this: 
@@ -96,7 +95,7 @@ def main():
     check_classifying_labels_as_dogs(results)
 
 
-    # TODO 5: Define calculates_results_stats function within the file calculates_results_stats.py
+    # Define calculates_results_stats function within the file calculates_results_stats.py
     # This function creates the results statistics dictionary that contains a
     # summary of the results statistics (this includes counts & percentages). This
     # dictionary is returned from the function call as the variable results_stats    
@@ -108,7 +107,7 @@ def main():
     check_calculating_results(results, results_stats)
 
 
-    # TODO 6: Define print_results function within the file print_results.py
+    # Define print_results function within the file print_results.py
     # Once the print_results function has been defined replace 'None' 
     # in the function call with in_arg.arch  Once you have done the 
     # replacements your function call should look like this: 
