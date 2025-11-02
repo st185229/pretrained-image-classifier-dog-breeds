@@ -40,7 +40,7 @@ from print_results import print_results
 
 # Main program function defined below
 def main():
-    # DONE 0: Measures total program runtime by collecting start time
+    # TODO 0: Measures total program runtime by collecting start time
     start_time = time()
     print(start_time)
     
@@ -64,7 +64,7 @@ def main():
     # this dictionary is returned from the function call as the variable results
     results = get_pet_labels(in_arg.dir)
 
-    # Function that checks Pet Images in the results Dictionary using results    
+    # Function that checks Pet Images in the results Dictionary using results
     check_creating_pet_image_labels(results)
 
 
